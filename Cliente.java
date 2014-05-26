@@ -1,12 +1,21 @@
 
 public class Cliente {
 
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	private String nome;
+	private String CPF;
+	
+	public String getNome() {
+		return nome;
 	}
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	public String getCPF() {
+		return CPF;
+	}
+	public void setCPF(String cPF) {
+		CPF = cPF;
+	}
+	
 
 }
