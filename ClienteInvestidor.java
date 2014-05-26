@@ -1,12 +1,19 @@
 
-public class ClienteInvestidor {
-
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+public class ClienteInvestidor extends Cliente {
+	private String ClienteVip;
+	
+	public ClienteInvestidor(String ClienteVip){
+		this.ClienteVip = ClienteVip;
+		
 	}
+
+	public String getClienteVip() {
+		return ClienteVip;
+	}
+
+	public void setClienteVip(String clienteVip) {
+		ClienteVip = clienteVip;
+	}
+
 
 }
